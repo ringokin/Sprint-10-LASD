@@ -1,0 +1,141 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -16.081
+TNS   : -22543.403
+
+Type  : Slow Model Setup 'redutorCLK:comb_348|clkOut'
+Slack : -5.957
+TNS   : -43.222
+
+Type  : Slow Model Setup 'UART_RXD'
+Slack : -5.333
+TNS   : -203.041
+
+Type  : Slow Model Setup 'SW[14]'
+Slack : -0.737
+TNS   : -1.331
+
+Type  : Slow Model Hold 'SW[14]'
+Slack : -5.966
+TNS   : -6.181
+
+Type  : Slow Model Hold 'UART_RXD'
+Slack : -3.101
+TNS   : -8.146
+
+Type  : Slow Model Hold 'redutorCLK:comb_348|clkOut'
+Slack : -1.919
+TNS   : -4.042
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'CLOCK_50'
+Slack : -3.595
+TNS   : -59.899
+
+Type  : Slow Model Recovery 'SW[14]'
+Slack : -1.147
+TNS   : -2.294
+
+Type  : Slow Model Removal 'SW[14]'
+Slack : -0.493
+TNS   : -0.986
+
+Type  : Slow Model Removal 'CLOCK_50'
+Slack : 1.436
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.000
+TNS   : -6125.916
+
+Type  : Slow Model Minimum Pulse Width 'UART_RXD'
+Slack : -1.222
+TNS   : -65.222
+
+Type  : Slow Model Minimum Pulse Width 'SW[14]'
+Slack : -1.222
+TNS   : -10.062
+
+Type  : Slow Model Minimum Pulse Width 'entradaUART:comb_353|erro'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'redutorCLK:comb_348|clkOut'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -7.212
+TNS   : -10355.027
+
+Type  : Fast Model Setup 'redutorCLK:comb_348|clkOut'
+Slack : -2.597
+TNS   : -17.086
+
+Type  : Fast Model Setup 'UART_RXD'
+Slack : -2.094
+TNS   : -62.162
+
+Type  : Fast Model Setup 'SW[14]'
+Slack : -0.084
+TNS   : -0.135
+
+Type  : Fast Model Hold 'SW[14]'
+Slack : -3.141
+TNS   : -3.207
+
+Type  : Fast Model Hold 'UART_RXD'
+Slack : -1.898
+TNS   : -5.830
+
+Type  : Fast Model Hold 'redutorCLK:comb_348|clkOut'
+Slack : -1.198
+TNS   : -2.867
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'CLOCK_50'
+Slack : -1.231
+TNS   : -20.479
+
+Type  : Fast Model Recovery 'SW[14]'
+Slack : -0.169
+TNS   : -0.338
+
+Type  : Fast Model Removal 'SW[14]'
+Slack : -0.505
+TNS   : -1.010
+
+Type  : Fast Model Removal 'CLOCK_50'
+Slack : 0.579
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.000
+TNS   : -6125.916
+
+Type  : Fast Model Minimum Pulse Width 'UART_RXD'
+Slack : -1.222
+TNS   : -65.222
+
+Type  : Fast Model Minimum Pulse Width 'SW[14]'
+Slack : -1.222
+TNS   : -6.926
+
+Type  : Fast Model Minimum Pulse Width 'entradaUART:comb_353|erro'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'redutorCLK:comb_348|clkOut'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
