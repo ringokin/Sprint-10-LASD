@@ -1,0 +1,15 @@
+module ControlUnit(
+	input [5:0] OP, Funct,
+	output Jump, MemtoReg, MemWrite, Branch,
+	output [2:0] ULAControl,
+	output ULASrc, RegDst, RegWrite
+);
+//
+	wire OPzero;
+	assign OPzero = ~(OP);
+	always@(*)
+	begin
+		
+	end
+
+endmodule

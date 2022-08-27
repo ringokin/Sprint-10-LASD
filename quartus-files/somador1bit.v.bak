@@ -1,0 +1,13 @@
+module somador1bit(
+input clk, reset;
+output reg saida;
+);
+
+always (posedge clk or posedge reset) begin
+	if (reset)
+		saida = 0;
+	else
+		saida = !saida;
+end
+
+endmodule 

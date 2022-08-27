@@ -1,0 +1,21 @@
+module Parallel_OUT(
+input clk,
+	input [7:0] RegData, Address,
+	input we,
+	output reg [7:0] DataOut,
+	output wren
+);
+//
+	wire fioA, fioB;
+	
+	assign fioA = (Address == 8'hFF)?1:0;
+	assign fioB = fioA&we;
+	assign wren = ~fioA&we;
+	
+	always@(posedge (clk&fioB))
+	begin
+		DataOut = RegData;
+	end
+
+
+endmodule

@@ -1,0 +1,9 @@
+module mux8bit1p8(
+input [7:0] entrada [7:0],
+input [2:0] ctrl,
+output [7:0] saida
+);
+//
+
+assign saida = entrada[ctrl];
+endmodule

@@ -1,0 +1,17 @@
+module ExeTimer(
+input clk, reset, H,
+output reg [31:0] ExTime
+);
+//
+
+always@(posedge clk)
+begin
+	if(!H and !reset)
+	ExTime = ExTime + 1;
+end
+always@ (posedge reset)
+begin
+	ExTime = 0;
+end
+
+endmodule

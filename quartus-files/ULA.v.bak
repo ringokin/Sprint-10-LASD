@@ -1,0 +1,11 @@
+module ULA (
+input [3:0] a, b,
+input [1:0] sel,
+output [3:0] res
+);
+
+assign res = sel[1]?
+					sel[0]?a|b:a&b:
+					sel[0]?a-b:a+b;
+
+endmodule

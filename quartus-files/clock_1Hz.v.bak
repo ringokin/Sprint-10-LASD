@@ -1,0 +1,17 @@
+module clock_1Hz(
+input clk, reset,
+output reg clk1Hz
+);
+
+
+wire [24:0] saida;
+wire modulo, rst, rstAll;
+
+assign modulo = (saida[24:0] != 'b1011111010111100001000000);
+assign rst = reset & modulo;
+
+somador1bit somad[24:0]({saida[23:0], clk}, rst, saida[24:0]);
+
+somador1bit(saida[24], reset, clk1Hz);
+
+endmodule

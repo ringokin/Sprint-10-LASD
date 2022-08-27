@@ -1,0 +1,14 @@
+module monitor(
+input [3:0] num;
+output [0:6] img
+);
+
+assign img[0] = ((!num[3])&&(!num[2])&&(!num[1])&&(!num[0]))||
+					 ((!num[])&&)
+assign img[1] = 
+assign img[2] = 
+assign img[3] = 
+assign img[4] = 
+assign img[5] = 
+assign img[6] = 
+
